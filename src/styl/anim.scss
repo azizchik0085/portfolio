@@ -1,0 +1,166 @@
+// home page texts animation
+@keyframes hometext {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes hometext {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes hometext {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-o-keyframes hometext {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.hometext{
+    animation-name: hometext;
+    -webkit-animation-name: hometext;
+    -moz-animation-name: hometext;
+    -o-animation-name: hometext;
+     
+}
+// navbar animation
+
+
+@keyframes animNav{
+    from{
+        transform:translateY(-30px);
+        opacity: 0.3;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes animNav{
+    from{
+        transform:translateY(-30px);
+        opacity: 0.3;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+@-moz-keyframes animNav{
+    from{
+        transform:translateY(-30px);
+        opacity: 0.3;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+@-o-keyframes animNav{
+    from{
+        transform:translateY(-30px);
+        opacity: 0.3;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+.animNav{
+    animation-name: animNav;
+    -webkit-animation-name: animNav;
+    -moz-animation-name: animNav;
+    -o-animation-name: animNav;
+     
+}
+// portfolio
+@keyframes portfolioAnim{
+    from{
+        transform:translateY( 90px);
+        opacity: 0.3; 
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes portfolioAnim{
+    from{
+        transform:translateY(-30px);
+        opacity: 0.3;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+@-moz-keyframes portfolioAnim{
+    from{
+        transform:translateY(-30px);
+        opacity: 0.3;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+@-o-keyframes portfolioAnim{
+    from{
+        transform:translateY(-30px);
+        opacity: 0.3;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+.portfolioAnim{
+    animation-name: portfolioAnim;
+    -webkit-animation-name: portfolioAnim;
+    -moz-animation-name: portfolioAnim;
+    -o-animation-name: portfolioAnim;
+     
+}

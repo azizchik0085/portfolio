@@ -1,0 +1,260 @@
+//font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+//mix
+@mixin titleinfo {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Montserrt", sans-serif;
+
+    
+}
+
+
+html{
+    overflow-x: hidden ;
+}
+body{
+    background-color: black !important;
+    overflow-x: hidden;
+}
+nav{
+    padding: 15px 80px !important ;
+    animation: animNav 1s ease;
+   .navbar-brand{
+    font-size: 25px;
+    color: white !important;
+    font-family: "Montserrat",sans-serif;
+    b{
+        color: white;
+        font-family: "Montserrat",sans-serif;
+        font-weight: 700;
+    }
+     
+   }
+   .navbar-nav{
+    margin-left: auto;
+    .nav-item{
+        
+        margin: 20px;
+        font-size: 20px;
+        font-family: "Montserrat",sans-serif;
+        a{
+            color: #949494;
+            text-decoration: none;
+            transition: 0.2s ease;
+            -webkit-transition: 0.2s ease ;
+            &:hover{
+                color: white !important;
+                text-decoration: none;
+                font-size: 30px;
+                
+            }
+        }
+
+    }
+   }
+
+}
+nav.fixed{
+    padding: 15px 80px !important ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: #000000cf;
+    box-shadow: 0 5px 15px #0c0c0cde;
+}
+// about
+.about-me{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 70px;
+    .side1{
+        width: 55%;
+        margin: 20px 0;
+        .title{
+            font-size:70px ;
+            font-family: "Montserrat" , sans-serif  ;
+            color: white;
+            font-weight: 700;
+        }
+        .discription{
+            width: 75%;
+            margin: 15px 3px 60px;
+            font-size: 20px;
+            color: #AAAAAA;
+            font-family: "Montserrat", sans-serif;
+
+        }
+        .buttons{
+            .linkBtn{
+                background-color: #2B2B2B;
+                padding: 17px 40px ;
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                &:nth-child(2){
+                    margin-left: 13px;
+                    background-color: yellow;
+                    color: black;
+                    &:hover{
+                        background-color: #2B2B2B;
+                        color: white;
+                    }
+                    
+                }
+                &:hover{
+                    background-color: yellow;
+                    color: black;
+                    
+                }
+
+            }
+        }
+        .socialNet{
+            font-size: 25px;
+            text-decoration: none;
+            padding: 25px ;
+            .iconsvg{
+                margin: 10px;
+                font-size: 35px;
+                color: white;
+                &:hover{
+                    color: yellow;
+                }
+            }
+           
+            
+        }
+        
+    }
+}
+.titles{
+    
+    padding-top: 10%;
+    text-align: center;
+    .titlep{
+        color: yellow;
+        font-family: "Montserrt", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        
+    }
+    .titleh3{
+        color:  white;
+        font-size: 45px;
+        font-family: "Montserrt", sans-serif;
+        font-weight: bold;
+        
+    }
+}
+.portfoliotitle{
+    display: flex;
+    margin-left: 80px;
+    .portfoliotitle2{
+        padding-left: 50px;
+        padding-top: 50px;
+        h1{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        }
+        p{
+        color:whitesmoke;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        }
+        .portfolioBtn{
+            .linkBtn{
+                background-color: #2B2B2B;
+                padding: 17px 40px ;
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                &:nth-child(2){
+                    margin-left: 13px;
+                    background-color: yellow;
+                    color: black;
+                    &:hover{
+                        background-color: #2B2B2B;
+                        color: white;
+                    }
+                    
+                }
+                &:hover{
+                    background-color: yellow;
+                    color: black;
+                    
+                }
+
+            }
+        }
+            
+           
+            
+        
+        
+        
+    }
+}
+.zakazchik{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    .zakazchik2{
+        padding-right: 150px;
+        padding-top: 50px;
+        h1{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        }
+        p{
+        color:whitesmoke;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        }
+        .portfolioBtn{
+            .linkBtn{
+                background-color: #2B2B2B;
+                padding: 17px 40px ;
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                &:nth-child(2){
+                    margin-left: 13px;
+                    background-color: yellow;
+                    color: black;
+                    &:hover{
+                        background-color: #2B2B2B;
+                        color: white;
+                    }
+                    
+                }
+                &:hover{
+                    background-color: yellow;
+                    color: black;
+                    
+                }
+
+            }
+
+    }
+    }
+}
