@@ -10,10 +10,6 @@ const Portfolio = () =>{
         <>
             <Reveal effct="animNav">
                 <NavSec />
-
-
-
-
             </Reveal>
             <Reveal effct="animNav">
                 <PageInfo />
