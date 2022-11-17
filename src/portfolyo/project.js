@@ -15,7 +15,7 @@ const Project =() =>{
                     <h1>My Portfolio</h1>
                     <p>This is my portfolio, it was created on 12/20/2022.</p>
                     <div className="portfolioBtn">
-                        <a className="linkBtn" href="/">Source <GitHubIcon /> </a>
+                        <a className="linkBtn" href="https://github.com/azizchik0085/portfolio.git">Source <GitHubIcon /> </a>
                         <a className="linkBtn" href="/">Code < InsertLinkIcon /></a>
                     </div>
                 </div>

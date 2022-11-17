@@ -22,7 +22,7 @@ const  Aboutme = () =>{
                         from Uzbekistan Bukhara  region. Welcome to my personal website </p>
                    </Reveal>
                     <div className="buttons"> 
-                        <Link className="linkBtn" to="/">About me</Link>
+                        <a className="linkBtn" href="/about">About me</a>
                         <a className="linkBtn" href="/portfolio">Portfolio</a>
                     </div>
                     <div className="socialNet">

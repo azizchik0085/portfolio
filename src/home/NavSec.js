@@ -53,7 +53,7 @@ const NavSec = () => {
                                     <a href="/portfolio">Portfolio</a>
                                 </NavItem>
                                 <NavItem>
-                                    <Link to="/">About</Link> 
+                                    <a href="/about">About</a> 
                                 </NavItem>
                                 <NavItem>
                                     <Link to="/">Contact</Link>
