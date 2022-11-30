@@ -154,6 +154,104 @@ nav.fixed{
         
     }
 }
+// sikls
+.container{
+    margin: 40px ;
+    width: 50%;
+    display: block;
+    .containerdiv{
+        display: flex;
+        width: 520px;
+        justify-content: space-between;
+    .containerh1{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Montserrt", sans-serif;
+      text-align: center;
+        
+    }
+    .foiz{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Montserrt", sans-serif;
+        // margin-left: 400px;
+
+    }
+}
+    
+    .progress2 {
+        padding: 3px;
+        border-radius: 30px;
+        background: rgba(0, 0, 0, 0.25);  
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+        width: 40%; 
+        background-color: #ffffff;  
+        // animation: progressAnimation 4s;
+        .progress-bar2 {
+            height: 18px;
+            border-radius: 30px;
+            background-image: 
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+            transition: 0.4s linear;  
+            transition-property: width, background-color;
+            width: 90%; 
+            background-color: rgb(0, 0, 0);  
+            animation: progressAnimation 4s;    
+          }
+      }
+}
+.container2{
+    margin-left: 70px ;
+    width: 50%;
+    display: block;
+    .containerdiv2{
+        display: flex;
+        width: 520px;
+        justify-content: space-between;
+    .containerh12{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Montserrt", sans-serif;
+        text-align: center;
+        
+    }
+    .foiz2{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Montserrt", sans-serif;
+        // margin-left: 400px;
+
+        }
+    }
+    
+    .progress22 {
+        padding: 3px;
+        border-radius: 30px;
+        background: rgba(0, 0, 0, 0.25);  
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+        width: 73%; 
+        background-color: #ffffff;  
+        // animation: progressAnimation 4s;
+        .progress-bar22 {
+            height: 18px;
+            border-radius: 30px;
+            background-image: 
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+            transition: 0.4s linear;  
+            transition-property: width, background-color;
+            width: 87%; 
+            background-color: rgb(0, 0, 0);  
+            animation: progressAnimation2 4s;    
+          }
+      }
+}
+
+
+
 .portfoliotitle{
     display: flex;
     margin-left: 80px;
@@ -257,4 +355,152 @@ nav.fixed{
 
     }
     }
+}
+
+.contacthome{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    margin-top: 100px;
+    
+    .adress{
+        width: 49.7%;
+        margin-top: 35px;
+        .messaget{
+            width: 400px;
+            height: 50px;
+            background-color:black;
+            margin-left: 100px;
+            border-radius: 30px;
+            margin-top: 30px;
+            box-shadow: 0 0 15px #ccc;
+            .contacta{
+                
+                font-size: 16px;
+                margin-top: 5px;
+                color: yellow;
+                .telegram{
+                    margin-left: 90px;
+                    font-size: 25px;
+                    text-decoration: none;
+                    color: #41a4da;
+                
+
+                }
+                .iconsvgt{
+                    color:#41a4da;
+                    font-size: 35px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                   text-decoration: none;
+                }
+              
+                .whatsapp{
+                    margin-left: 90px;
+                    font-size: 25px;
+                    text-decoration: none;
+                    color: #44bd53;
+                
+
+                }
+                .gitgub{
+                    margin-left: 90px;
+                    font-size: 25px;
+                    text-decoration: none;
+                    color: white;
+                }
+                .iconsvgg{
+                    color:white;
+                    font-size: 35px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                   text-decoration: none;
+
+                }
+                .youtube{
+                    margin-left: 90px;
+                    font-size: 25px;
+                    text-decoration: none;
+                    color: #f20000;
+
+                }
+                .iconsvgy{
+                    color: #f20000;
+                    font-size: 35px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                   text-decoration: none;
+
+                }
+               
+            }
+            .iconsvgw{
+                color: #44bd53;
+                font-size: 35px;
+                margin-left: 10px;
+                margin-top: 5px;
+               text-decoration: none;
+            }
+            
+        }
+    }
+    .chiziq{
+        width: 0.5%;
+        background-color: rgb(91, 91, 88);
+        border-radius: 5px;
+        margin-top: 35px;
+    }
+    .formpage{
+        width: 49.7%;
+        background-color:black;
+        width: 600px;
+        border-radius: 5px;
+        margin-left: 25px;
+        margin-top: 35px;
+    .button-send{
+        background-color: yellow;
+        margin-left: 400px;
+        width: 130px;
+        border-radius: 20px;
+        margin-top: 10px;
+        .buttonsend{
+            color: black;
+            text-decoration: none;
+           margin-left: 15px;
+            font-size: 25px;
+            font-family: "Montserrat", sans-serif;
+        }
+        .icon-send{
+            color: black;
+            font-size: 25px;
+            margin-left: 15px;
+            margin-top: -10px;
+
+        }
+    }
+
+    .form-group{
+        
+        .label1{
+            font-size: 25px;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+        .input1{
+            width: 100%;
+            border-color: #242020;
+            border-radius: 25px ;
+            padding: 5px;
+        }
+        .textarea1{
+            width: 90%;
+            border-radius: 25px;
+        }
+       
+    }
+
+}
 }

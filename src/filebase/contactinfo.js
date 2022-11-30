@@ -1,6 +1,7 @@
 import NavSec from "../home/NavSec";
 import Reveal from "react-reveal/Reveal";
-import About from "./about";
+// import About from "./about";
+import ContactForm from "./contact";
 
 
 const Aboutinfo = () =>{
@@ -10,7 +11,7 @@ const Aboutinfo = () =>{
                 <NavSec />
             </Reveal>
             <Reveal effct="portfolioAnim">
-                <About />
+                < ContactForm/>
             </Reveal>
         </>
     )

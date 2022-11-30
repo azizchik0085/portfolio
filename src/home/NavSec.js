@@ -47,16 +47,16 @@ const NavSec = () => {
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <Link to="/">Home</Link>
+                                    <a href="/home">Home</a>
                                 </NavItem>
                                 <NavItem>
                                     <a href="/portfolio">Portfolio</a>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="/about">About</a> 
+                                    <a href="/about">Skills</a> 
                                 </NavItem>
                                 <NavItem>
-                                    <Link to="/">Contact</Link>
+                                    <a href="/contact">Contact</a>
                                 </NavItem> 
                             </Nav>
                         </Collapse>
